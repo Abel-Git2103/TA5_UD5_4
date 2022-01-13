@@ -12,6 +12,7 @@ public class AreaCirculoAPP {
 		radio = consola.nextLine();
 		double radioDouble = Double.parseDouble(radio);
 		System.out.println("El área del circulo es = " + PI * Math.pow(radioDouble, 2));
+		consola.close();
 		
 	}
 }
